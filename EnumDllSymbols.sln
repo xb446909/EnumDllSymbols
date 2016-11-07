@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SymbolLoader", "SymbolLoader\SymbolLoader.vcxproj", "{6EC62978-8244-4F22-BD3C-9E81100EF09F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49FD8B14-B99E-4A00-A94F-9E7DE159C253} = {49FD8B14-B99E-4A00-A94F-9E7DE159C253}
+		{A49AD7F2-0D20-464A-B585-8103EC1B1D19} = {A49AD7F2-0D20-464A-B585-8103EC1B1D19}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDemo1", "DllDemo1\DllDemo1.vcxproj", "{49FD8B14-B99E-4A00-A94F-9E7DE159C253}"
 EndProject
