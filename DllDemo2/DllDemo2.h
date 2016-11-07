@@ -5,9 +5,9 @@
 // DLLDEMO2_API 函数视为是从 DLL 导入的，而此 DLL 则将用此宏定义的
 // 符号视为是被导出的。
 #ifdef DLLDEMO2_EXPORTS
-#define DLLDEMO2_API __declspec(dllexport)
+#define DLLDEMO2_API extern "C" __declspec(dllexport)
 #else
-#define DLLDEMO2_API __declspec(dllimport)
+#define DLLDEMO2_API extern "C" __declspec(dllimport)
 #endif
 
 

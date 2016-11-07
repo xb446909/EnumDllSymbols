@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 // 这是导出函数的一个示例。
-DLLDEMO1_API int fnDllDemo1(void)
+int __stdcall fnDllDemo1(void)
 {
 	printf("This is print from DllDemo1");
     return 1;
